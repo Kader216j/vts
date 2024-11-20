@@ -1,0 +1,90 @@
+.container1{
+    position: sticky;
+    top: 0;
+    
+    
+}
+.container2{
+    background-color:rgb(111, 217, 158) ;
+    
+}
+.container2 .row1{
+    display:flex;
+    margin-left: 600px;
+    color: white;
+   padding: 12px;
+    
+}
+.container1 .row1 .column2 {
+    text-decoration: none;
+    margin-top: 10px;
+   
+    
+}
+li a{
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: rgb(64, 172, 113);
+    color: white;
+}
+.active{
+    background: green;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 16px 16px 0px;
+    width: 150%;
+}
+.dropdown-content a{
+    color: black;
+    padding: 18px 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropdown{
+    background-color: white;
+}
+.container1 .row1{
+    display: flex;
+}
+
+.b button{
+    position: relative;
+    background-color: yellowgreen;
+    color:white;
+    padding: 16px;
+    border-radius: 30px;
+    border: none;
+    overflow: hidden;
+    transition:  0.4s;
+    cursor: auto;
+}
+.b button:hover:not(.active){
+   background-color: black;
+  border: 1px solid  rgba(75, 210, 70, 0.881) ;
+} 
+
+.container4{
+    background-color:rgb(46, 53, 241) ;
+}
+.container4 .row1{
+    display:flex;
+    margin-left: 20px;
+    color: white;
+    
+}
